@@ -13,7 +13,7 @@ yarn tsc init
 # O could be
 npx tsc --init --rootDir src --outDir build
 # add Dependencies
-yarn add multer cors express dotenv
+yarn add multer cors express dotenv bcrypt
 yarn add -D nodemon rimraf
 ```
 

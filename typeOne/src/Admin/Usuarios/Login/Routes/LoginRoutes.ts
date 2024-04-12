@@ -1,9 +1,8 @@
 import express from 'express';
+import { login } from '../Infrastructure/Controllers/Login';
 
 const router = express.Router();
 
-router.get('/login', (req, res) => {
-    res.send('Hello Fer from Login');
-})
+router.post('/', login);
 
 export {router as loginRoutes};

@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+
 import { DATABASE_USER, DATABASE_PASSWORD, } from '../Config/App';
 
 const uriMonGo = `mongodb+srv://${DATABASE_USER}:${DATABASE_PASSWORD}@cluster0.3c11pgd.mongodb.net/`
